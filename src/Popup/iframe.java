@@ -18,7 +18,7 @@ public class iframe {
 		    driver.manage().window().maximize();
 		    driver.get("https://chercher.tech/practice/frames-example-selenium-webdriver");
 	        Thread.sleep(2000);
-	        
+	        //hii
 	        //getText method
 	        WebElement text = driver.findElement(By.xpath("//h1[text()='Frames Examples in Selenium Webdriver']"));
 	        System.out.println(text.getText());
